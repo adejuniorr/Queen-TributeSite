@@ -1,0 +1,246 @@
+*{
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+html, body{
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+	width: auto;
+	height: 100vh;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #000;
+	background-image: url("../img/queen-background.png");
+}
+
+header{
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	position: fixed;
+	color: rgba(255, 255, 255, 1.0);
+	font-size: 2.8rem;
+	text-align: center;
+}
+nav{
+	background-color: rgba(0, 0, 0, 0.9);
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	color: white;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	word-spacing: 6rem;
+}
+a{
+	color: white;
+	font-size: 1.4rem;
+	text-decoration: none;
+	transition: all 200ms ease-in-out;
+}
+a:hover{
+	color: rgba(255, 0, 0, 1.0);
+}
+
+#title{
+	background-color: rgba(0, 0, 0, 0.7);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 100%;
+	min-width: 100%;
+	min-height: 0;
+	margin: auto;
+	text-align: center;
+}
+
+h2{
+	color: rgba(255, 255, 255, 1.0);
+	font-size: 2.8rem;
+	text-align: center;
+	font-family: times;
+}
+
+.container{
+	width: 50%;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(255, 255, 255, 0.25);
+	min-width: 38rem;
+	min-height: 0;
+	box-shadow: 1px 1px 3px black;
+}
+@media(min-width:280px) and (max-width: 1000px){
+	.container{
+		width: 90%;
+		padding: 5px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: rgba(255, 255, 255, 0.25);
+		min-width: 90%;
+		min-height: 0;
+		box-shadow: 1px 1px 3px black;
+	}
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+	grid-gap: 5px;
+	margin: 0 auto;
+	max-width: 1200px;
+	padding: 10px;
+}
+.grid div{
+	background-color: rgba(0, 0, 0, 0.66);
+	font-family: arial;
+	font-size: 1.2rem;
+	text-align: justify;
+	padding: 5px;
+	color: rgba(255, 255, 255, 1.0);
+	box-shadow: 1px 1px 3px black;
+}
+.txtpart{
+	margin: 0 auto;
+}
+#red{
+	color: rgba(255, 0, 0, 1.0);
+}
+.txtcontent{
+	font-family: arial;
+	font-size: 1.6rem;
+	text-align: justify;
+}
+
+.img-members{
+	width:auto;
+	height: auto;
+	margin: auto;
+}
+
+#members-pic{
+	width: 100%;
+	height: 100%;
+}
+
+.musiccontainer{
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 50%;
+	padding: 5px;
+	margin: 0 auto;
+	min-width: 38rem;
+	min-height: 0;
+}
+@media(min-width: 280px) and (max-width: 1000px){
+	.musiccontainer{
+		background-color: rgba(255, 255, 255, 0.5);
+		width: 90%;
+		padding: 5px;
+		margin: 0 auto;
+		min-width: 90%;
+		min-height: 0;
+	}
+}
+.img-div{
+	margin: 0 auto;
+}
+.img-song{
+	width: 300px;
+	height: 280px;
+}
+.maintxt{
+	text-align: center;
+	font-size: 1.6rem;
+	color: rgba(255, 255, 255, 1.0);
+	padding: 4px;
+}
+
+h3{
+	text-align: center;
+	font-family: times;
+	font-size: 1.8rem;
+	background-color: rgba(0, 0, 0, 1.0);
+	border-radius: 3px;
+}
+.last-content{
+	background-color: rgba(255, 255, 255, 0.3);
+	width: 50%;
+	min-width: 90%;
+	min-height: 0;
+	/*margin: 0 auto;*/
+	border-radius: 3px;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.main-img{
+	width: 90%;
+	height: 90%;
+	padding: 5px;
+	margin-top: 15px;
+	margin-left: 5%;
+}
+#mainliveaid-img{
+	width: 100%;
+	height: 100%;
+	box-shadow: 1px 1px 2px black;
+
+}
+
+.grid-gallery{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 5px;
+	padding: 5px;
+	width: 80%;
+	margin: 0 auto;
+}
+@media(min-width: 280px) and (max-width: 1000px){
+	.grid-gallery{
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 5px;
+		padding: 5px;
+		width: 80%;
+		margin: auto;
+	}
+}
+.main-img2{
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	height: 100%;
+	box-shadow: 1px 1px 2px black;
+}
+.liveaid-img{
+	width: 100%;
+	height: 100%;
+	box-shadow: 1px 1px 2px black;
+}
+.end-text{
+	background-color: rgba(0, 0, 0, 0.65);
+}
+
+footer{
+	background-color: rgba(0, 0, 0, 1);
+	text-align: center;
+	color: rgba(255, 0, 0, 0.5);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 1.2rem;
+	font-family: times;
+	position: relative;
+}
+#footer{
+	color: rgba(255, 0, 0, 1.0);
+	background-color: rgba(0, 0, 0, 0.2);
+	font-size: 1.6rem;
+	text-align: center;
+	font-family: times;
+	letter-spacing: 2px;
+}
