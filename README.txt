@@ -7,3 +7,5 @@ Este site foi montado com o intuito de revisar e dar seguimento a estudos pessoa
 Hi!
 
 This site was made to review and move on personal studies. It's brings a tribute to Queen rock band, formed at 1970 decade and who mark the rock history at XX century. The project was structured on basic concepts of HTML5 and CSS3. Hope you enjoy it!
+
+Site: https://yourmajesty-queen.netlify.app/
